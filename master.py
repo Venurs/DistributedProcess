@@ -54,7 +54,6 @@ if __name__ == '__main__':
     print('Try get results...')
     #  关闭
     m.shutdown()
-
     print("master执行完毕")
 
 
