@@ -21,7 +21,7 @@ def task_fun(list1):
 BaseManager.register("get_task_queue")
 BaseManager.register("get_result_queue")
 #  链接服务器，包括IP和端口，口令
-server_ip = "192.168.253.1"
+server_ip = ""
 w = BaseManager(address=(server_ip, 5000), authkey=b"1234")
 w.connect()
 #  获取对象

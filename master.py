@@ -38,7 +38,7 @@ if __name__ == '__main__':
     BaseManager.register("get_task_queue", callable=return_task_queue)
     BaseManager.register("get_result_queue", callable=return_result_queue)
     #  绑定端口 BaseManager()
-    m = BaseManager(address=("10.0.151.206", 5000), authkey=b"1234")
+    m = BaseManager(address=("", 5000), authkey=b"1234")
     #  启动队列
     m.start()
     #  获得网络访问对象
